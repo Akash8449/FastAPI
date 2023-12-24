@@ -8,7 +8,7 @@ from sqlalchemy.ext.declarative import  declarative_base
 
 # postgres
 # SQLALCHEMY_DATABASE_URL= 'postgresql://postgres:test1234!@localhost/TodoApplicationDatabase'
-SQLALCHEMY_DATABASE_URL='postgres://bfovexyo:GW8hVQN9eTfAbomk_MCqeUuYNE51wcZz@drona.db.elephantsql.com/bfovexyo'
+SQLALCHEMY_DATABASE_URL='postgresql://bfovexyo:GW8hVQN9eTfAbomk_MCqeUuYNE51wcZz@drona.db.elephantsql.com/bfovexyo'
 
 # mysql
 # SQLALCHEMY_DATABASE_URL="mysql+pymysql://root:test1234!@127.0.0.1:3306/TodoApplicationDatabase"
