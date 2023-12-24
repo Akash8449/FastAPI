@@ -10,7 +10,7 @@ app= FastAPI()
 models.Base.metadata.create_all(bind=engine)
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
-
+#
 @app.get('/')
 async def root():
     return RedirectResponse(url='todos', status_code= status.HTTP_302_FOUND)
